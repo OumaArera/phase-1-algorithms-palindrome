@@ -3,11 +3,8 @@ const isPalindrome = word => {
   let reversed = word.split("").reverse().join("")
   if (reversed.toLowerCase() === word.toLowerCase()){
     return true;
-  }else {
-    return false;
   }
-    
-
+  return false;
 }
 
 /* 
